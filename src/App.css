@@ -1,7 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,900&display=swap");
+
 .App {
   text-align: center;
 }
-
+.map {
+  display: flex;
+  flex-direction: row !important;
+  margin-top: 100px;
+  gap: 70px;
+}
+.p {
+  display: block;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.cont-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Headers {
+  font-family: "Poppins";
+  font-size: 50px;
+  font-weight: 900;
+  color: #012443;
+  text-decoration: underline;
+}
+.country {
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 900;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+.days {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 900;
+}
+.temp {
+  color: #012443;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 900;
+  margin-block-start: 15px;
+  margin-block-end: 15px;
+}
+.cards {
+  color: #012443;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 900;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +69,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("./img/sky.jpg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
