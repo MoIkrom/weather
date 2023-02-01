@@ -30,7 +30,6 @@ function App() {
   const forecastWeather = () => {
     axios
       .get(`http://api.openweathermap.org/data/2.5/forecast?q=Jakarta&cnt=5&appid=${APIKEY}&units=metric`)
-
       .then((res) => {
         setList(res.data.list);
       })
